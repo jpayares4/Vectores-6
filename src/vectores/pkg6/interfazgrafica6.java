@@ -128,11 +128,14 @@ public class interfazgrafica6 extends javax.swing.JFrame {
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Resultado", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Blackadder ITC", 0, 24))); // NOI18N
         jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+        txtresultado.setEditable(false);
         txtresultado.setColumns(20);
         txtresultado.setRows(5);
+        txtresultado.setAutoscrolls(false);
+        txtresultado.setEnabled(false);
         jScrollPane1.setViewportView(txtresultado);
 
-        jPanel3.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, -1, -1));
+        jPanel3.add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 40, 160, -1));
 
         jPanel1.add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 260, 180));
 
